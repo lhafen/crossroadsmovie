@@ -127,7 +127,9 @@ h1 {
   textarea {
       resize: none;
   }
-
+img {
+  max-height:700px;
+}
   .gray {
   background-color:#e0e0d1;
 }
