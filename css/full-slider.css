@@ -18,6 +18,31 @@ body {
 .carousel-inner {
     height: 100%;
 }
+.navbar {
+  background-color:#000000;
+  min-height:100px;
+}
+.navbar-brand
+{
+    margin: 0;
+    padding: 0;
+    height:100px;
+    line-height:100px;
+}
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 0px;
+  padding: 9px 10px !important;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 36.5px;
+    padding-bottom: 36.5px;
+    line-height: 27px;
+    font-weight: bold;
+  }
+}
 
 /* Background images are set within the HTML using inline CSS, not here */
 
@@ -44,10 +69,7 @@ body {
 
 
 footer {
-    margin-top:50px;
-    margin-left:0px;
-    margin-right:0px;
-    margin-bottom:0px;
+    margin: 50px 0;
 }
 
 /*INTEGRATE CSS*/
@@ -71,9 +93,7 @@ h1 {
       font-size: 20px;
       color: #111;
   }
-/*  .container {
-      padding: 80px 120px;
-  }*/
+
   .person {
       border: 10px solid transparent;
       margin-bottom: 25px;
